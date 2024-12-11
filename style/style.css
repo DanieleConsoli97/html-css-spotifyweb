@@ -1,0 +1,32 @@
+.container_top{
+
+    display: flex;
+    height:100vh;
+    width:100vw;
+    flex-wrap: wrap;
+    
+}
+.nav{
+    background-color: lightblue;
+    flex-basis: 10%;
+    height:calc(100% - 80px);
+    
+    
+    
+}
+
+.song_section{
+    background-color: lightgreen;
+    flex-basis:90%;
+    height: calc(100% - 80px);
+   
+   
+}
+
+.player_section{
+    background-color: rgb(178, 112, 32);
+    height: 80px;
+    flex-basis: 100%;
+    
+    
+}
