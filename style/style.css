@@ -7,7 +7,7 @@
     
 }
 .nav{
-    background-color: lightblue;
+    background-color: black ;
     flex-basis: 10%;
     height:calc(100% - 80px);
     
@@ -16,7 +16,7 @@
 }
 
 .song_section{
-    background-color: lightgreen;
+    background-color: #141922;
     flex-basis:90%;
     height: calc(100% - 80px);
    
@@ -24,9 +24,61 @@
 }
 
 .player_section{
-    background-color: rgb(178, 112, 32);
+    background-color: #282828;
     height: 80px;
     flex-basis: 100%;
-    
-    
+
 }
+
+.container_img{
+   display: flex;
+   height: 100%;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+  
+
+}
+
+.nav_img{
+    display: block;
+    height: 20px; ;
+    width: 100%; 
+}
+#scr{
+    height: 10px; ;
+    width: 100%;
+    
+    }
+  
+    .nav_top_img{
+        margin-top: 5px;
+    }
+    .nav_bottom_img{
+        margin-bottom: 10px;
+    
+    }
+    #profile_icon{
+        background-color: #808080;
+        border-color: none;
+        border-radius: 50%;
+    }
+    .nav_upgrade{
+        height:70px ;  
+        background-color:#080b12;  
+    }
+    .nav_upgrade{
+      display: flex;
+      justify-content: end;
+      align-items: center;opacity: 90%;
+    }
+    .pill{
+        padding: 10px 30px; 
+        border: 2px solid white;  
+        border-radius: 30px;
+        color: white;
+
+    
+    }
+
+
