@@ -9,18 +9,14 @@
 .nav{
     background-color: black ;
     flex-basis: 10%;
-    height:calc(100% - 80px);
-    
-    
-    
+    height:calc(100% - 80px);    
 }
 
 .song_section{
     background-color: #141922;
     flex-basis:90%;
     height: calc(100% - 80px);
-   
-   
+    
 }
 
 .player_section{
@@ -36,18 +32,25 @@
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
-  
-
+   width: 100%;
 }
-
+.nav_top{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.nav_bottom{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
 .nav_img{
-    display: block;
     height: 20px; ;
-    width: 100%; 
+    width: auto;
 }
 #scr{
     height: 10px; ;
-    width: 100%;
+   
     
     }
   
@@ -56,12 +59,14 @@
     }
     .nav_bottom_img{
         margin-bottom: 10px;
-    
+        width: auto;
     }
+   
     #profile_icon{
         background-color: #808080;
         border-color: none;
         border-radius: 50%;
+       
     }
     .nav_upgrade{
         height:70px ;  
@@ -69,16 +74,31 @@
     }
     .nav_upgrade{
       display: flex;
-      justify-content: end;
-      align-items: center;opacity: 90%;
+      justify-content: end;     
+      align-items: center;
+      opacity: 90%;
     }
     .pill{
         padding: 10px 30px; 
         border: 2px solid white;  
         border-radius: 30px;
         color: white;
-
-    
+        font-size: 10px;
+       
     }
-
+    .nav_top span{
+        display: none;
+        color: white;
+        font-size: 15px;
+    }
+    .nav_bottom span{
+        display: none;
+        color: white;
+        font-size: 5px;
+    }
+    .nav_playlist{
+        display: none;
+        color: white;
+        font-size: 10px;
+    }
 
