@@ -16,7 +16,6 @@
     background-color: #141922;
     flex-basis:90%;
     height: calc(100% - 80px);
-    
 }
 
 .player_section{
@@ -70,13 +69,13 @@
     }
     .nav_upgrade{
         height:70px ;  
-        background-color:#080b12;  
+        background-color:rgba(8, 11, 18, 0.761); 
     }
     .nav_upgrade{
       display: flex;
       justify-content: end;     
       align-items: center;
-      opacity: 90%;
+    
     }
     .pill{
         padding: 10px 30px; 
@@ -191,3 +190,9 @@
     .player_song_control{        
         flex-basis: 50%;
     }
+    
+    
+    .container_song{
+        height: 100%;
+        overflow-y:scroll
+        }
