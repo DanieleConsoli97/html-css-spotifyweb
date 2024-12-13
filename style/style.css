@@ -104,12 +104,27 @@
     .player_section{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .player_info{
         display: flex;
+        align-items: center;
+        gap: 10px;
     }
-    
-    
+    .player_info_track img{
+        width: 40px;
+        display: block;
+    }
+    .player_info_text li{
+        list-style-type: none;
+        font-size: 10px;
+        color: white;
+    }
+
+    .player_info_icon{
+        color: lightgrey;    
+        font-size: 15px;
+    }
 
 
 
