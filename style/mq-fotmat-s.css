@@ -1,25 +1,34 @@
 @media screen and (min-width:480px) {
     .nav{
         flex-basis: 25%;
-           
+           flex-grow: 0;
+           max-width: 125px;
     }
     .song_section{
         flex-basis:75%;
+        flex-grow: 1;
     }
     .container_img{
         align-items:start;
         width: 100%;
+        
     }
 
     .nav_top span{
         display: inline;
+        font-size: 10px;
     }
     .nav_bottom span{
         display: inline;
         color: white;
+    
+       
     }
     .nav_playlist{
         display: inline;
     
+    }
+    .nav_img{
+        vertical-align: middle;
     }
 }

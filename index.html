@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/debug.css"> 
+    <!-- <link rel="stylesheet" href="style/debug.css">  -->
     <script src="https://kit.fontawesome.com/c3349b4dee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style/mq-fotmat-s.css">
 </head>
@@ -16,12 +16,23 @@
         <section class="nav">
             <div class="container_img">
             
-                <ul class="nav_top">
-                        <li><img class="nav_img nav_top_img" src="./img/logo-small.svg" alt="logo_spotify"> </li>
-                        <li><img class="nav_img nav_top_img" src="./img/home.svg" alt="icon_home"><span>Home</span></li>
-                        <li><img class="nav_img nav_top_img" src="./img/search.svg" alt="icon_search"><span>Cerca</span></li>
-                        <li><img class="nav_img" src="./img/libreria.svg" alt="icon_library"><span>La tua libreria</span></li>
-                </ul>
+                <div class="nav_top">
+                    <div>   
+                    <img class="nav_img nav_top_img" src="./img/logo-small.svg" alt="logo_spotify"> 
+                    </div>
+                    <div>
+                        <img class="nav_img nav_top_img" src="./img/home.svg" alt="icon_home">
+                        <span>Home</span>
+                    </div>
+                    <div>
+                        <img class="nav_img nav_top_img" src="./img/search.svg" alt="icon_search">
+                        <span>Cerca</span>
+                    </div>
+                    <div>
+                        <img class="nav_img" src="./img/libreria.svg" alt="icon_library">
+                        <span>La tua libreria</span>
+                    </div>
+                </div>
                 <ul class="nav_playlist">
                     <li>Playlist</li>
                     <li> <i class="fa-solid fa-plus"> crea una Playlist</i></li>
@@ -33,10 +44,18 @@
                     <li>Nome Playlist</li>
                    
                  </ul>
-                <ul class="nav_bottom">
-                   <li> <img id="scr" class="nav_img nav_bottom_img" src="./img/download.svg" alt="icon_download"><span>Istalla app</span></li>
-                  <li>  <img id="profile_icon" class="nav_img nav_bottom_img" src="./img/profile.svg" alt="icon_profile"><span>Jhon doe</span></li>
-                </ul>
+                <div class="nav_bottom">
+                    <div class="nav_bottom_img">
+                        <img id="scr" class="nav_img " src="./img/download.svg" alt="icon_download">
+                        <span>Istalla app</span>
+                 
+                    </div>
+                    <div class="nav_bottom_img">
+                        <img id="profile_icon" class="nav_img " src="./img/profile.svg" alt="icon_profile">
+                        <span>Jhon doe</span>
+                    </div>
+
+                </div>
                 
             </div>
         </section>
@@ -54,8 +73,21 @@
       
         <!-- player_section -->
         <section class="player_section">
-            
-            
+            <!-- song img and text -->
+            <div class="player_info">
+
+
+            </div class="player_song_control"> 
+            <!-- player song control section -->
+            <div>
+
+
+            </div class="player_control_sound"> 
+            <!-- control playlis and sound -->
+            <div>
+
+
+            </div>
         </section>   
     </div>
     
