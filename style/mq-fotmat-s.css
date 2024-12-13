@@ -31,6 +31,15 @@
     .nav_img{
         vertical-align: middle;
     }
+
+.player_info_text li>p{
+        display: none;
+    }
+    
+    .player_info_text ul:last-child  li:nth-child(2) span{
+        display: inline-block;
+    }
+    
     
 
 

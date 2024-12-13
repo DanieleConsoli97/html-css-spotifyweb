@@ -109,7 +109,7 @@
     .player_info{
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 3px;
     }
     .player_info_track img{
         width: 40px;
@@ -120,11 +120,74 @@
         font-size: 10px;
         color: white;
     }
+    .player_info_text ul:last-child  li:nth-child(2) span{
+        display: none;
+    }
 
     .player_info_icon{
         color: lightgrey;    
         font-size: 15px;
     }
-
-
-
+    .player_info_icon i{
+        display: block;
+    }
+    .player_song_control_top i{
+        margin: 0 5px;
+        color: white;
+        
+    }
+    .player_song_control_top i.fa-solid.fa-play{
+        margin: 0 5px;
+        height: 25px;
+        border: 1px solid white;
+        border-radius: 50%;
+        aspect-ratio:1;
+        text-align: center;  
+        padding: 4px 4px ;      
+    }
+    .player_song_control_top{
+        text-align: center;
+    }
+    .player_song_control_bottom{
+        display: flex;
+        align-items: center;
+    }
+    
+    .background_bar{
+        flex-basis: 70%;
+        background-color: #5a5a5a;
+        height: 5px;
+        border-radius: 16px;
+        margin: 0 5px;
+    }
+    .level_bar{
+        height: 5px;
+        width: 40%;
+        background-color: white;
+        border-radius: 16px;
+    }
+    .player_control_sound{
+        color: white;
+        flex-basis: 20%; 
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+  
+    .background_sound_bar{
+        flex-basis: 70%;
+        background-color: #5a5a5a;
+        height: 5px;
+        border-radius: 16px;
+        margin: 0 5px;
+    }
+    .level_sound_bar{
+        height: 5px;
+        width: 40%;
+        background-color: white;
+        border-radius: 16px;
+    }
+    .player_song_control{        
+        flex-basis: 50%;
+    }
