@@ -101,7 +101,15 @@
         color: white;
         font-size: 10px;
     }
-
+    .player_section{
+        display: flex;
+        justify-content: space-between;
+    }
+    .player_info{
+        display: flex;
+    }
+    
+    
 
 
 
