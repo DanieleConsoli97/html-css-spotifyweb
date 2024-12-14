@@ -193,6 +193,44 @@
     
     
     .container_song{
-        height: 100%;
-        overflow-y:scroll
-        }
+        height:84%;
+        overflow-y:scroll;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .nav_song{
+        width: 100%;
+    }    
+    .nav_song ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: white;
+        
+    }
+    .nav_song li{
+        font-size: 10px;
+        text-transform: uppercase;
+
+    }
+    ul :nth-child(5){
+       margin-left:70px ;
+    }
+    .played_img{
+        width: 105px;
+    }
+    .song_recently_played_img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 10px;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 10px;
+
+    }
+    
+   
