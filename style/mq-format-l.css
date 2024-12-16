@@ -1,3 +1,17 @@
 @media screen and (min-width:1024px){
-
+    .nav_song{
+       width: 50%;
+       margin: 0 auto;
+    }
+    .player_info{    
+        flex-basis: 25%;
+    }
+    
+    .player_song_control{
+        flex-basis: 50%;
+    }
+    
+    .player_control_sound{
+        flex-basis: 25%;
+    }
 }

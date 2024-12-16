@@ -240,6 +240,7 @@
         gap: 10px;
         text-align: center;
         margin-top: 20px;
+        font-size: 15px;
 
        
     }
@@ -249,13 +250,37 @@
     .song_personal_playlist{
         color: white;
         font-size: 10px;
-    }
-    .song_personal_playlist :first-child p:first-child  {
-    font-size: 15px;
-    margin-bottom: 5px;
-    }
-    .song_personal_playlist{
         margin-top: 20px;
         margin-left: 10px;
+        font-weight: bold;
     }
-   
+    .song_personal_playlist :first-child p:first-child  {
+    font-size: 20px;
+    margin-bottom: 5px;
+    }
+    
+    .artist_img{
+        width: 130px;
+        border-radius: 50%;
+    }
+    .song_artist{
+        color: white;
+        font-size: 10px;
+         margin-top: 20px;
+        margin-left: 10px;
+        
+        
+    }
+    .song_artist :first-child p:first-child  {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    }
+    .container_artist{
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 15px;
+    }
