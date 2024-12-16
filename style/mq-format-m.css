@@ -1,0 +1,15 @@
+@media screen and (min-width:768px){
+    .player_info_icon i{
+        display: inline-block;
+        
+       
+    }
+
+
+
+    .player_control_sound{
+        
+        flex-basis: 30%; 
+        
+    }
+}

@@ -40,14 +40,15 @@
         display: inline-block;
     }
     
-    .song_recently_played_img{
-      
-        
-        
+    .nav_song ul :nth-child(5){
+        margin-left:0px ;
+     }
+
+
+     .nav_song{
+        width: 60%;
+        margin-left: 40px;
     }
-
-
-
 
 
 }
