@@ -239,6 +239,7 @@
         display: flex;
         gap: 10px;
         text-align: center;
+        margin-top: 20px;
 
        
     }
@@ -251,8 +252,10 @@
     }
     .song_personal_playlist :first-child p:first-child  {
     font-size: 15px;
+    margin-bottom: 5px;
     }
     .song_personal_playlist{
         margin-top: 20px;
         margin-left: 10px;
     }
+   
