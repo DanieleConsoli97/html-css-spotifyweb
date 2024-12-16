@@ -235,4 +235,24 @@
     width: 95%;
       
     }
-    container_playlist
+    .container_playlist{
+        display: flex;
+        gap: 10px;
+        text-align: center;
+
+       
+    }
+    .playlist_img{
+        width: 130px;
+    }
+    .song_personal_playlist{
+        color: white;
+        font-size: 10px;
+    }
+    .song_personal_playlist :first-child p:first-child  {
+    font-size: 15px;
+    }
+    .song_personal_playlist{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
